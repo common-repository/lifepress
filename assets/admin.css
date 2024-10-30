@@ -1,0 +1,38 @@
+/* 
+ * Lifepress Admin Styles
+ * @version 2.1
+ */
+
+#lifepress_settings label{display: inline-block;}
+#lifepress_settings input[type=text]{display: block;width: 100%}
+.lifepress_form_subbox{
+	background-color: #dbf9f7;
+    padding: 10px 20px;
+}
+#lifepress_settings{
+	border-radius: 10px; background-color: #fff;
+	padding: 0px;margin-top: 10px; box-shadow: 0px 0px 20px -5px #0000001c;
+}
+.lifepress_sub_form{
+	background-color: #c2ecea;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.lp_settings_row{
+	padding:1px 20px;
+	border-bottom: 1px solid #e7e7e7
+}
+.lp_settings_row p{display: flex;justify-content: space-between;align-items: center;}
+.lp_settings_row p label{flex-basis: 50%;}
+.lp_settings_row:last-child{border:none;}
+.lp_settings_row p.submit{margin:0;}
+
+/* loading */	
+	.lp_loading{position: relative;}
+	.lp_loading:before{
+		content:"";
+		background-color: #ffffffb5;
+		position: absolute;
+		width: 100%; height: 100%; z-index: 10;top:0; left:0;
+	}
